@@ -3,5 +3,6 @@ var cat = document.querySelector(".cat");
 
 //
 button.addEventListener("click", function () {
-  button.innerText = "Its working";
+  // button.innerText = "Its working";
+  cat.classList.add ("show");
 });
